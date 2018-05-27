@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	fmt.Println(strlib.Ucase(os.Args[1:]))
+	fmt.Println(strlib.Lcase(os.Args[1:]))
 }
